@@ -27,3 +27,4 @@ WCS\CoavBundle\Entity\Flight:
     manyToOne:
         departure:
             targetEntity: WCS\CoavBundle\Entity\Terrain
+            inversedBy: departures
